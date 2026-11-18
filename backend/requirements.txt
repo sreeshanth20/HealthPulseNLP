@@ -1,0 +1,19 @@
+# HealthPulse AI backend dependencies (core, fully offline-capable)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+alembic>=1.13
+pydantic>=2.8
+pydantic-settings>=2.4
+email-validator>=2.1
+PyJWT>=2.8
+python-multipart>=0.0.9
+scikit-learn>=1.4
+numpy>=1.26
+joblib>=1.3
+PyMuPDF>=1.24
+rapidfuzz>=3.6
+redis>=5.0
+
+# psycopg2 is only needed when DATABASE_URL points at PostgreSQL (docker-compose)
+psycopg2-binary>=2.9; platform_system != "Windows"

@@ -1,0 +1,14 @@
+# Optional heavy ML extras for HealthPulse AI.
+#
+# The platform is fully functional WITHOUT these (classical models +
+# lexicon NER + hashing embedder). Install these only if you want to
+# fine-tune / run the transformer models described in docs/ML_GUIDE.md.
+#
+#   pip install -r ml/requirements-ml.txt   # ~2.5 GB with CUDA wheels
+#
+torch>=2.2
+transformers>=4.44
+datasets>=2.20
+sentence-transformers>=3.0
+accelerate>=0.33
+hdbscan>=0.8.37

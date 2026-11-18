@@ -1,0 +1,202 @@
+{
+  "model": "tfidf(1-2gram,20k,sublinear)+logreg(C=8)",
+  "artifact": "tfidf_lr.joblib",
+  "trained_seconds": 0.19,
+  "n_train": 1494,
+  "n_eval": 315,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "labels": [
+    "animal_nuisance",
+    "drainage_sewage",
+    "garbage_sanitation",
+    "mosquito menace",
+    "noise_pollution",
+    "public_sanitation",
+    "road_infrastructure",
+    "street_lighting",
+    "water_contamination"
+  ],
+  "label_names": {
+    "animal_nuisance": "Animal nuisance",
+    "drainage_sewage": "Drainage & sewage",
+    "garbage_sanitation": "Garbage & sanitation",
+    "mosquito menace": "Mosquito menace",
+    "noise_pollution": "Noise pollution",
+    "public_sanitation": "Public sanitation",
+    "road_infrastructure": "Road infrastructure",
+    "street_lighting": "Street lighting",
+    "water_contamination": "Water contamination"
+  },
+  "per_class": {
+    "animal_nuisance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "drainage_sewage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "garbage_sanitation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "mosquito menace": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "noise_pollution": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "public_sanitation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "road_infrastructure": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "street_lighting": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "water_contamination": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 315.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 315.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35
+    ]
+  ],
+  "data_notice": "Metrics are computed on SYNTHETIC demonstration data and do not represent real-world performance."
+}

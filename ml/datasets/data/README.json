@@ -1,0 +1,11 @@
+{
+  "generator_seed": 42,
+  "generated_at": "2026-11-18T19:02:59.136791+00:00",
+  "synthetic_notice": "All rows are SYNTHETIC demonstration data generated from hand-written templates. They do not contain real patient records or real civic complaints and must never be presented as real-world evidence.",
+  "files": {
+    "complaints_train.jsonl": 1494,
+    "complaints_eval.jsonl": 315,
+    "symptom_reports_ner.jsonl": 420,
+    "cross_domain_pairs.jsonl": 1350
+  }
+}
